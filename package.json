@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "stepup-web-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "fnp:test": "lerna run --scope fnp test",
+    "fnp:lint": "lerna run --scope fnp lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

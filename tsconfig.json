@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "outDir": "lib",
+    "sourceMap": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+
+    "resolveJsonModule": true,
+  },
+  "include": [
+    "packages/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "packages/*/lib"
+  ]
+}
